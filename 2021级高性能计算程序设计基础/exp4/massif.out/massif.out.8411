@@ -1,0 +1,675 @@
+desc: --stacks=yes
+cmd: ./fft_serial
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=417446035
+mem_heap_B=15777
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=711384710
+mem_heap_B=30113
+mem_heap_extra_B=127
+mem_stacks_B=464
+heap_tree=detailed
+n7: 30113 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8192 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 8192 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 8192 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 4096 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n1: 1024 0x525113A: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 1024 0x5261327: _IO_doallocbuf (genops.c:365)
+   n1: 1024 0x5260446: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:759)
+    n1: 1024 0x525E98B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1266)
+     n1: 1024 0x5253A3D: puts (ioputs.c:40)
+      n1: 1024 0x109910: timestamp() (in /home/kaddy/HPC/exp_4/fft_serial)
+       n0: 1024 0x108ADF: main (in /home/kaddy/HPC/exp_4/fft_serial)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 342 0x52A7848: __tzfile_read (tzfile.c:279)
+  n1: 342 0x52A7276: __tz_convert (tzset.c:406)
+   n1: 342 0x1098E1: timestamp() (in /home/kaddy/HPC/exp_4/fft_serial)
+    n0: 342 0x108ADF: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 75 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=1274174061
+mem_heap_B=230817
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1689947655
+mem_heap_B=230817
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2194180554
+mem_heap_B=918945
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2567249585
+mem_heap_B=1836449
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=3160807948
+mem_heap_B=1836449
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=3560897153
+mem_heap_B=3671457
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=detailed
+n5: 3671457 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1048576 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1048576 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1048576 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 524288 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=3837889817
+mem_heap_B=3671457
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=4296076513
+mem_heap_B=3671457
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=4841721775
+mem_heap_B=3671457
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=5178275245
+mem_heap_B=7341473
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=5666764699
+mem_heap_B=7341473
+mem_heap_extra_B=127
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=6271519251
+mem_heap_B=14681505
+mem_heap_extra_B=12223
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=6604310824
+mem_heap_B=14681505
+mem_heap_extra_B=12223
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=7021465630
+mem_heap_B=14681505
+mem_heap_extra_B=12223
+mem_stacks_B=496
+heap_tree=detailed
+n5: 14681505 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4194304 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 4194304 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 4194304 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 2097152 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=7530355298
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=488
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=7961228855
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=8279482675
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=8699959693
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=9084927611
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=9494659068
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=10028739749
+mem_heap_B=29361569
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=10437873833
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=464
+heap_tree=detailed
+n5: 58721697 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 8388608 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=11069597514
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=11480551980
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=detailed
+n5: 58721697 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 8388608 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=12027117672
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=12538828363
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=12854712324
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=detailed
+n5: 58721697 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 8388608 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=13266495921
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=13675485342
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=14020205684
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=14460646548
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=14752937394
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=15163172703
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=15572137932
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=16196697042
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=16607061375
+mem_heap_B=58721697
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=17255112670
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=464
+heap_tree=peak
+n5: 117441953 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 33554432 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=17675854328
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=400
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=18096596170
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=448
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=18377090599
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=18755907981
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=detailed
+n5: 117441953 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 33554432 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=19201552995
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=19751728001
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=20297295007
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=20842574013
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=21387835019
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=21706602467
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=22013835378
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=22295116033
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=22706584023
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=23115844270
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=23524828548
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=23933778331
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=24342723801
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=24619716487
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=520
+heap_tree=detailed
+n5: 117441953 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 33554432 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=24896709159
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=25173701914
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=25591955129
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=25880313672
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=26293846047
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=26703364341
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=27112380876
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=27521334690
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=27930280665
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=28385363144
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=detailed
+n5: 117441953 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 33554432 0x108BC0: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BD5: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 33554432 0x108BEA: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 16777216 0x108BAB: main (in /home/kaddy/HPC/exp_4/fft_serial)
+ n0: 1441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=28692596055
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=28973876710
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=29385344700
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=29794604947
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=30203589225
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=30612539008
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=31021484478
+mem_heap_B=117441953
+mem_heap_extra_B=16255
+mem_stacks_B=496
+heap_tree=empty
